@@ -54,6 +54,7 @@ div, ul, li, img {
 }
 
 body {
+	background-image: url('images/first-background.jpg');
 	background-color: #333;
 	font-family: Roboto, sans-serif;
 }
@@ -100,7 +101,9 @@ a {
 	color: #4c5058;
 }
 
-
+.hero img {
+	width: 100%;
+}
 
 
 
