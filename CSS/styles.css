@@ -154,12 +154,32 @@ a {
 	height: 127px;
 }
 
-.col-1, .col-2, .col-3 {
-	float: left;
-	margin: 0 auto;
+.three-icon {
+	text-align: center;
+	height: 500px;
 }
 
+.col-1, .col-2, .col-3 {
+	display: inline-block;
+	width: 33%;
+}
 
+.three-icon h1 {
+	font-size: 2.75rem;
+	font-weight: 300;
+	margin-bottom: 3.125rem;
+}
+
+.three-icon p {
+	font-size: 1.563rem;
+	margin-top: 2.5rem;
+}
+
+.three-icon .container {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
 
 
 
