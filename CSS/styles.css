@@ -54,9 +54,13 @@ div, ul, li, img {
 */}
 
 body {
-	background: url('../images/first-background.jpg') no-repeat fixed center;
-	background-color: #333;
 	font-family: Roboto, sans-serif;
+}
+
+.hero-image {
+	background: url('../images/first-background.jpg') no-repeat center;
+	background-size: cover;
+	background-color: #333;
 }
 
 a {
@@ -133,7 +137,7 @@ a {
 	border-radius: 4px;
 }
 
-.hero h1, p {
+.hero h1, .hero p {
 	margin: 20px;
 }
 
@@ -145,7 +149,15 @@ a {
 	background-color: #d9400e;
 }
 
+.icon {
+	width: 127px;
+	height: 127px;
+}
 
+.col-1, .col-2, .col-3 {
+	float: left;
+	margin: 0 auto;
+}
 
 
 
