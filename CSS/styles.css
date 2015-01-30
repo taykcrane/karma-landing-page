@@ -185,12 +185,41 @@ a {
 
 .col-1, .col-2, .col-3 {
 	width: 258px;
-
 }
 
+.footer .container {
+	border-top: 1px solid #eee;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	height: 200px;
+}
 
+.social {
+	width: 25px;
+	height: 25px;
+	border: 1px solid #eee;
+	border-radius: 100%;
+	padding: 10px;
+	margin: 1.25rem 5px;
+}
 
+.footer h5, .footer p {
+	text-align: center;
+	flex: 0 1 100%;
+}
 
+.footer p {
+	color: #838994;
+	font-size: .9 rem;
+	font-weight: 300;
+}
+
+.empty {
+	height: 100px;
+}
 
 
 
